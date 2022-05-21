@@ -21,7 +21,7 @@
     </div>
     <div id="middle-container">
       <div id="picture-container">
-        <img src="../assets/John.png"/>
+        <img src="../assets/John.png" @click="openRules"/>
       </div>
       <div id="willpower-container">
         <div class="box" @click="reduceWill" v-on:click.right="increaseWill" @contextmenu="e => e.preventDefault()">
@@ -55,6 +55,9 @@ export default {
     }
   },
   methods:{
+    openRules(){
+      window.open("https://rpggeek.com/image/4327274/everyone-john","_blank")
+    },
     reduceWill(){
       if(this.willpower > 0) this.willpower--;
     },
@@ -204,6 +207,8 @@ $grey: #414141
 
       img
         height: 90%
+        cursor: pointer
+        user-select: none
         
     #willpower-container
       flex: 1
