@@ -1,24 +1,2 @@
-# everyone-is-john
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Everyone is John!
+![alt text](https://github.com/Singhmansingh/everyone-is-john/raw/master/src/Screenshot.png "Everyone is John!")
